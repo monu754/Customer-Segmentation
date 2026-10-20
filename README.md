@@ -206,8 +206,7 @@ not assume the Mall Customers column names.
 ├── backend/              # FastAPI application
 ├── data/
 │   └── raw/              # Sample input dataset
-├── docs/                 # Architecture, requirements, audit, and progress
-│   └── assets/           # GitHub documentation images
+├── assets/           # GitHub documentation images
 ├── frontend/             # React + TypeScript dashboard
 ├── outputs/              # Local generated artifacts (ignored by Git)
 ├── src/                  # Reusable ML and reporting modules
@@ -221,25 +220,6 @@ Runtime uploads, temporary files, generated outputs, virtual environments,
 frontend dependencies, and build folders are excluded by
 [`.gitignore`](.gitignore). Raw sample input, source code, tests, documentation,
 and the README preview asset remain suitable for GitHub.
-
-## Documentation
-
-- [Project overview](docs/PROJECT_OVERVIEW.md)
-- [Architecture](docs/PROJECT_ARCHITECTURE.md)
-- [Frontend architecture](docs/FRONTEND_ARCHITECTURE.md)
-- [Technology stack](docs/TECH_STACK.md)
-- [Requirements](docs/REQUIREMENTS.md)
-- [Dataset documentation](docs/DATASET_DOCUMENTATION.md)
-- [Algorithm explanation](docs/ALGORITHM_EXPLANATION.md)
-- [Setup and execution](docs/SETUP_AND_EXECUTION.md)
-- [Testing strategy](docs/TESTING_STRATEGY.md)
-- [Expected outputs](docs/EXPECTED_OUTPUTS.md)
-- [Implementation plan](docs/IMPLEMENTATION_PLAN.md)
-- [Academic report guide](docs/ACADEMIC_REPORT_GUIDE.md)
-- [Viva questions](docs/VIVA_QUESTIONS.md)
-- [Project decisions](docs/PROJECT_DECISIONS.md)
-- [Full audit report](docs/AUDIT_REPORT.md)
-- [Development progress](docs/PROGRESS.md)
 
 ## Dataset and interpretation note
 
