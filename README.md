@@ -249,14 +249,6 @@ segmentation, select features such as age, annual income, and spending score.
 Cluster labels are arbitrary numeric IDs; interpretation should be based on
 centroids and domain context.
 
-## Known limitations
-
-- Active datasets and analyses are held in memory and are lost when the backend restarts.
-- There is no authentication or authorization because this is a local academic application.
-- Upload size and quota limits should be added before production use.
-- K-Means assumes distance-based, roughly spherical clusters and is sensitive to feature choice.
-- Full Playwright browser automation requires installing a local Chromium binary.
-
 ## License
 
 This project is intended for academic and educational use. Add the license
