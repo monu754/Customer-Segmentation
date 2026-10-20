@@ -1,0 +1,63 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Test, coverage, and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Generated application data
+data/uploads/
+data/processed/
+temp/
+outputs/analyses/
+
+# Generated reports, plots, and serialized models
+outputs/plots/
+outputs/reports/
+outputs/models/
+*.pkl
+*.joblib
+
+# Logs and local runtime files
+*.log
+*.pid
+
+# Keep empty generated directories available after checkout.
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!temp/.gitkeep
+!outputs/analyses/.gitkeep
+!outputs/plots/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/models/.gitkeep
+
+docs/
+

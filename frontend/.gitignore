@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Vite build and cache directories
+dist/
+.vite/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Test and coverage output
+coverage/
+playwright-report/
+test-results/
+
+# Logs
+*.log
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
