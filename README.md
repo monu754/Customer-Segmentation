@@ -64,7 +64,7 @@ workflows rather than multi-user production deployment.
 ### 1. Clone and enter the project
 
 ```powershell
-git clone <your-repository-url>
+git clone https://github.com/monu754/Customer-Segmentation.git
 cd "BA Project"
 ```
 
