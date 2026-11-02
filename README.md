@@ -65,7 +65,6 @@ workflows rather than multi-user production deployment.
 
 ```powershell
 git clone https://github.com/monu754/Customer-Segmentation.git
-cd "BA Project"
 ```
 
 ### 2. Set up the Python environment
